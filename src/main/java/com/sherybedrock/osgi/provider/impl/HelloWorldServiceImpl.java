@@ -12,6 +12,7 @@ public class HelloWorldServiceImpl implements HelloWorldService {
 		LocalTime time = LocalTime.now();
 		LocalDate date = LocalDate.now();
 
-		System.out.println("Hello World  :) " + "local date/time now is : " + date + "*" + time);
+		System.out.println("Hello From OSGI and Spring Dynamic Modules  :) " + "local date/time now is : " + date + "*" + time);
+		System.out.println("______________________________________________________________________________________________________");
 	}
 }
